@@ -1,3 +1,3 @@
-var userName = alert(What is your name?);
+var userName = prompt("What is your name?");
+alert("Again Nice to meet you " + userName);
 console.log("Nice to meet you " + userName);
-prompt("Again Nice to meet you " + userName);
