@@ -72,3 +72,13 @@ function sumArray(x) {
   });
   console.log(sum);
 }
+
+function max(x) {
+  var max = x[0];
+  x.forEach(function(y){
+  if(y > max) {
+    max = y;
+  }
+});
+console.log(max);  
+}
