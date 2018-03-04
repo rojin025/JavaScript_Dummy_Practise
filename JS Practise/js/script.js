@@ -69,9 +69,34 @@
 //   b++;
 // }
 
-// TO CHECK WHEATHER THE STRING CONTAIN Yes
-var ans = prompt("Are we there yet?");
-while (ans.indexOf("yes") === -1 && ans.indexOf("yup") === -1) {
-  var ans = prompt("Are we there yet?");
-}
-alert("Yes we Made it!")
+// // TO CHECK WHEATHER THE STRING CONTAIN Yes
+// var ans = prompt("Are we there yet?");
+// while (ans.indexOf("yes") === -1 && ans.indexOf("yup") === -1) {
+//   var ans = prompt("Are we there yet?");
+// }
+// alert("Yes we Made it!")
+
+// FOR LOOP exerisce
+
+// // for (var i = -10; i < 20 ; i++) {
+//   console.log(i);
+// }
+
+// for (var i = 10; i < 40 ; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+//
+// }
+
+// for (var i = 300; i <= 333 ; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i);
+//   }
+// }
+//
+// for (var i = 5; i <= 50 ; i++) {
+//   if (i % 3 === 0 && i%5 === 0) {
+//     console.log(i);
+//   }
+// }
