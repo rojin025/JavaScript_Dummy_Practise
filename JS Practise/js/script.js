@@ -20,16 +20,51 @@
 //
 // !(( str || msg ) && isFunny)
 
-// guessing game
-var ans =3;
+// // guessing game
+// var ans =3;
+//
+// var stringNum = prompt("Guess the number:");
+// var num = Number(stringNum);
+//
+// if (num === ans) {
+//   alert("Corrent Number Yes");
+// } else if (num > ans) {
+//   alert("Too High Guess Again");
+// } else {
+//   alert("Too Low Guess Again")
+// }
 
-var stringNum = prompt("Guess the number:");
-var num = Number(stringNum);
+// Whiele exerisce
+var n = -10 ;
+console.log("Print all numbers between -10 and 19")
+while (n < 20){
+  console.log(n);
+  n++;
+}
 
-if (num === ans) {
-  alert("Corrent Number Yes");
-} else if (num > ans) {
-  alert("Too High Guess Again");
-} else {
-  alert("Too Low Guess Again")
+var n = 10;
+console.log("Print all ever number 10 and 40");
+while (n < 41) {
+  if ((n%2)==0) {
+    console.log(n);
+  }
+  n++;
+}
+
+var a = 300;
+console.log("print all odd numbers between 300 and 333");
+while (a < 334) {
+  if ((a%3)==0) {
+    console.log(a);
+  }
+  a++;
+}
+
+var b = 5;
+console.log("Print all NUmbers divisible by 5 and 3 between 5 and 50");
+while (b < 50) {
+  if(((b % 3)==0) && ((b % 5)==0)) {
+    console.log(b);
+  }
+  b++;
 }
